@@ -70,7 +70,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.proyectohibernate/org.example.proyectohibernate.HelloApplication
+                            <mainClass>org.example.proyectohibernate/org.example.proyectohibernate.BibliotecaApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

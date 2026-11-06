@@ -12,9 +12,10 @@ public class JPAUtil {
     private static EntityManagerFactory entityManagerFactory;
 
     public static synchronized void iniciar() {
+
         String password = null;
         if (entityManagerFactory == null) {
-            password = System.getenv("DB_password");
+            password = System.getenv("DB_PASSWORD");
             if (password == null || password.isBlank()) {
                 throw new RuntimeException("DB_PASSWORD enviorment variable is emtpy");
             }
